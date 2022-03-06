@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Mr. Cakes!</title>
+      <!-- Mobile Specific Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <!-- Font-->
+      <link rel="stylesheet" type="text/css" href="css/montserrat-font.css" />
+      <link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+      <!-- Main Style Css -->
+      <link rel="stylesheet" href="css/style.css" />
+      <!-- Grid Style Css -->
+      <link rel="stylesheet" href="css/grid.css" />
+      <link rel="icon" href="/img/Mr_cakes_logo.png" type="image" sizes="24x24">
+   </head>
+   <body>
+      <div class="column-xs-8 column-md-12" style="margin-left: 50px;">
+         <img src="/img/Mr_cakes_logo.png" alt="Mr. Cakes!" width="150">
+      </div>
+      <nav class="navegacion" id="navbar">
+         <div class="contenedor">
+            <div class="grid menu">
+               <div class="column-xs-8 column-md-12"></div>
+               <div class="column-xs-4 column-md-12">
+                  <a href="#" class="toggle-nav">Menu <i class="ion-navicon-round"></i>
+                  </a>
+                  <ul>
+                     <li class="nav-item">
+                        <a href="#productos">Productos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#cotizar">Cotizar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#vendidos">Vendidos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#horarios">Horarios</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <main>
+         <div class="contenedor" id="productos">
+            <div class="grid related-products">
+               <div class="column-xs-12">
+                  <h3 class="pull-left">Los cupcakes del mes!</h3>
+               </div>
+               <div class="column-xs-12 column-md-4">
+                  <img class="imagenes-grid" alt="Cupcake Chocofresa con Vanilla" src="./img/Cupcakes/Galeria_Uno_Cupcake.png" />
+                  <h4>Cupcake Chocofresa con Vanilla</h4>
+                  <p class="price">$25.00</p>
+                  <button class="add-to-cart pull-right"> Agregar  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                  </button>
+               </div>
+               <div class="column-xs-12 column-md-4">
+                  <img class="imagenes-grid" alt="Cupcake de Vainilla con Fresas" src="./img/Cupcakes/Galeria_Dos_Cupcake.png" />
+                  <h4>Cupcake de Vainilla con Fresas</h4>
+                  <p class="price">$20.00</p>
+                  <button class="add-to-cart pull-right"> Agregar  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                  </button>
+               </div>
+               <div class="column-xs-12 column-md-4">
+                  <img class="imagenes-grid" alt="Cupcake de Chocolate" src="./img/Cupcakes/Galeria_Tres_Cupcake.png" />
+                  <h4>Cupcake de Chocolate</h4>
+                  <p class="price">$23.00</p>
+                  <button class="add-to-cart pull-right"> Agregar  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                  </button>
+               </div>
+               <div class="column-xs-12">
+                  <h3 class="pull-left">Los pasteles del mes!</h3>
+               </div>
+               <div class="column-xs-12 column-md-4">
+                  <img class="imagenes-grid" alt="Pastel de Vainilla" src="./img/Pastel/Galeria_Uno_Pastel.png" />
+                  <h4>Pastel de Vainilla</h4>
+                  <p class="price">$250.00</p>
+                  <button class="add-to-cart pull-right"> Agregar  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                  </button>
+               </div>
+               <div class="column-xs-12 column-md-4">
+                  <img class="imagenes-grid" alt="Pastel de Frutillas" src="./img/Pastel/Galeria_Dos_Pastel.png" />
+                  <h4>Pastel de Frutillas</h4>
+                  <p class="price">$200.00</p>
+                  <button class="add-to-cart pull-right"> Agregar  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                  </button>
+               </div>
+               <div class="column-xs-12 column-md-4">
+                  <img class="imagenes-grid" alt="Pastel de Vanilla con Fresas" src="./img/Pastel/Galeria_Tres_Pastel.png" />
+                  <h4>Pastel de Vanilla con Fresas</h4>
+                  <p class="price">$280.00</p>
+                  <button class="add-to-cart pull-right"> Agregar  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="contenedor" id="vendidos">
+            <div class="column-xs-12">
+               <h3 class="pull-left">Vendidos hoy!</h3>
+            </div>
+            <table class="table table-hover">
+               <thead class="thead-dark">
+                  <tr>
+                     <th scope="col">Cliente</th>
+                     <th scope="col">Cantidad</th>
+                     <th scope="col">Producto</th>
+                     <th scope="col">Precio</th>
+                     <th scope="col">Fecha</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Maxi Sacristán Esteve</td>
+                     <td>5</td>
+                     <td>Cupcake Chocofresa con Vanilla</td>
+                     <td>$125.00</td>
+                     <td id="fecha1"></td>
+                  </tr>
+                  <tr>
+                     <td>Delfina Rueda</td>
+                     <td>15</td>
+                     <td>Cupcake de Vainilla con Fresas</td>
+                     <td>$300.00</td>
+                     <td id="fecha2"></td>
+                  </tr>
+                  <tr>
+                     <td>Itziar Mayol Aramburu</td>
+                     <td>2</td>
+                     <td>Cupcake de Chocolate</td>
+                     <td>$46.00</td>
+                     <td id="fecha3"></td>
+                  </tr>
+                  <tr>
+                     <td>Tere Ríos Carrasco</td>
+                     <td>1</td>
+                     <td>Pastel de Vainilla</td>
+                     <td>$250.00</td>
+                     <td id="fecha4"></td>
+                  </tr>
+                  <tr>
+                     <td>Ani Graciana Bárcena Giner</td>
+                     <td>2</td>
+                     <td>Pastel de Frutillas</td>
+                     <td>$400.00</td>
+                     <td id="fecha5"></td>
+                  </tr>
+                  <tr>
+                     <td>Flor Falcó</td>
+                     <td>1</td>
+                     <td>Pastel de Vanilla con Fresas</td>
+                     <td>$280.00</td>
+                     <td id="fecha6"></td>
+                  </tr>
+                  <tr>
+                     <td>Primitiva del Villegas</td>
+                     <td>15</td>
+                     <td>Cupcake de Chocolate</td>
+                     <td>$345.00</td>
+                     <td id="fecha7"></td>
+                  </tr>
+                  <tr>
+                     <td>Valentín Andrés</td>
+                     <td>8</td>
+                     <td>Cupcake Chocofresa con Vanilla</td>
+                     <td>$200.00</td>
+                     <td id="fecha8"></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="contenedor-secundario" id="cotizar">
+            <div class="form-v10-content">
+               <form class="form-detail" id="formulario-datos">
+                  <div class="form-center">
+                     <h2>Cotiza tu pedido personalizado!</h2>
+                     <div class="form-group">
+                        <div class="form-row form-row-1">
+                           <select name="tamaño">
+                              <option class="option" selected>Tamaño del pastel</option>
+                              <option value="option" name="chicho">Chico</option>
+                              <option value="option" name="mediano">Mediano</option>
+                              <option value="option" name="grande">Grande</option>
+                           </select>
+                           <span class="select-btn">
+                           <i class="zmdi zmdi-chevron-down"></i>
+                           </span>
+                        </div>
+                        <div class="form-row form-row-1">
+                           <select name="forma">
+                              <option class="option" selected>Forma del pastel</option>
+                              <option value="option" name="redondo">Redondo</option>
+                              <option value="option" name="cuadrado">Cuadrado</option>
+                              <option value="option" name="personalizado"> Personalizado </option>
+                           </select>
+                           <span class="select-btn">
+                           <i class="zmdi zmdi-chevron-down"></i>
+                           </span>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <div class="form-row form-row-1">
+                           <input type="number" class="input-text" min="0" max="99" 
+                              onKeyUp="if(this.value>99){this.value='99';}else if(this.value<0){this.value='0';}" placeholder="Número de personas" required />
+                        </div>
+                        <div class="form-row form-row-1">
+                           <select name="forma">
+                              <option class="option" selected>Sabor</option>
+                              <option value="option" name="vainilla">Vainilla</option>
+                              <option value="option" name="chocolate">Chocolate</option>
+                              <option value="option" name="fresa">Fresa</option>
+                              <option value="option" name="mazapan">Mazapán</option>
+                           </select>
+                           <span class="select-btn">
+                           <i class="zmdi zmdi-chevron-down"></i>
+                           </span>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <div class="form-row form-row-1">
+                           <input type="text" maxlength="100" class="input-text" placeholder="Nombre" required />
+                        </div>
+                        <div class="form-row form-row-1">
+                           <input type="text" maxlength="150" class="input-text" placeholder="Apellido" required />
+                        </div>
+                     </div>
+                     <div class="form-row">
+                        <input type="text" maxlength="150" name="street" class="street" id="street" placeholder="Mensaje personalizado" required />
+                     </div>
+                     <div class="form-group">
+                        <div class="form-row form-row-1">
+                           <input type="email" minlength="3" maxlength="64" name="street" class="street" id="street" placeholder="Correo electrónico" required />
+                        </div>
+                        <div class="form-row form-row-1">
+                           <input type="number" min="0" max="9" name="phone" pattern=".+@beststartupever.com" class="phone" id="phone" placeholder="Teléfono" required />
+                        </div>
+                     </div>
+                     <div class="form-row-last pull-right">
+                        <input type="submit" name="register" style="margin-right: 30px;" class="register" value="Enviar cotización" />
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="contenedor contenedor-tercero" id="horarios">
+            <div class="column-xs-12 column-md-4">
+             <h4>MÁS SERVICIOS</h4><br>
+             <p>Preguntas frecuentes</p>
+             <p>Sucursales</p>
+             <p>Contacto</p>
+           </div>
+           <div class="column-xs-12 column-md-4">
+            <img src="/img/Mr_cakes_logo.png" alt="Mr. Cakes!" style="margin-top: -100px;">
+          </div>
+          <div class="column-xs-12 column-md-4">
+            <h4>HORARIOS</h4>
+            <h6>Lun-Dom:</h6>
+            <p>07:00 – 22:00</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          </div>
+      </main>
+      <footer>
+         <div class="grid">
+            <div class="column-xs-12">
+               <p>Derechos reservados Mr. Cakes!</p>
+            </div>
+         </div>
+      </footer>
+      <script src="https://use.fontawesome.com/ddc6df5686.js"></script>
+      <script src="./js/script.js"></script>
+   </body>
+</html>
