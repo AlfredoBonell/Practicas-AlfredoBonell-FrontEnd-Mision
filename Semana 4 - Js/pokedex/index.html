@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="main col-lg-6">
+        <div class="text-center">
+            <img src="./img/pokemonlogo.png" class="rounded" alt="...">
+        </div>
+        <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" name="buscar-pokemon" id="buscar-pokemon" placeholder="Escribe el nombre o número del Pokemón" maxlength="50">
+        </div>
+    </div>
+
+    <div class="main col-lg-6">
+        <div class="text-center">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body" id="contenedor-pokemones">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main col-lg-6">
+        <div class="alert alert-success alert-dismissible" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Éxito!</strong> El Pokemón ingresado ha sido desplegado correctamente.
+          </div>
+        <div class="alert alert-warning alert-dismissible" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Advertencia!</strong> El Pokemón ingresado no existe, favor de verificar su nombre.
+        </div>
+        <div class="alert alert-danger alert-dismissible" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Error!</strong> Ocurrió un error al querer obtener el Pokemón.
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
