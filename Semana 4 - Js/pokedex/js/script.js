@@ -76,7 +76,7 @@ $(function(){
         $("div.card-body").empty();
         $("div.card-body").css("background", "#FFF");
         append += `
-            <img class="card-img-top" src="../img/ditto-error-404.gif"  alt="Imagen Pokemón" style="width: auto;">
+            <img class="card-img-top" src="https://user-images.githubusercontent.com/99234057/158533034-1597452c-3ceb-4fb1-a36d-f4ab32104301.gif"  alt="Imagen Pokemón" style="width: auto;">
         `;
         $("div.card-body").append(append);
     }
