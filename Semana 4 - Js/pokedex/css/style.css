@@ -6,12 +6,16 @@
 
 html, body {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .main {
     width: 50%;
     margin: 50px auto;
+}
+
+.ocultar-elemento{
+    display: none;
 }
 
 /* Bootstrap 4 text input with search icon */
@@ -34,5 +38,5 @@ html, body {
 
 .card-group{
     border-radius: 5px;
-    color: #fff;
+    color: #000;
 }
